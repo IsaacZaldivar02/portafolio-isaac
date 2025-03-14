@@ -1,1 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --color-gris:#231F20;
+    --color-griscl: #292929;
+    --color-amarillo: #FFD800;
+    --color-rojocl: #E23D2E;
+    --color-rojo: #D62420;
+} 
+
+
+
+h1.titulo{
+    font-family: "Staatliches", sans-serif;
+}
+
     .maqueta{max-width: 300px;}
+    
+
