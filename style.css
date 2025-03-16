@@ -13,7 +13,10 @@
 } 
 
 
-
+body{
+    font-family: "Fira Sans", sans-serif !important;
+    font-size: 1rem;
+}
 h1.titulo{
     font-family: "Staatliches", sans-serif;
     font-size: 9rem !important;
@@ -21,11 +24,6 @@ h1.titulo{
 h2.titulo2{
     font-family: "Staatliches", sans-serif;
     font-size: 3rem !important;
-}
-body {
-    font-family: "Fira Sans", sans-serif;
-    font-size: 20px !important;
-
 }
 h3.subt{
     font-family: "IBM Plex Mono", monospace;
