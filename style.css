@@ -12,25 +12,48 @@
     --color-rojo: #D62420;
     --color-blanco: #FFFFFF;
 
-    --font-titulo1: "Staatliches", sans-serif;
+    --font-titulo: "Staatliches", sans-serif;
     --font-subt: "IMB Plex Mono", monospace;
-    --font-p: "Fira Sans", sans-serif;
+    --font-parra: "Fira Sans", sans-serif;
 
 } 
 
 h1.titulo1{
-    font-family: var(--font-titulo1);
+    font-family: var(--font-titulo);
+    font-size: 9rem;
+    color: var(--color-amarillo);
+}
+p.xxx{
+    font-family: var(--font-parra);
+    font-size: 1.3rem;
+    color:var var(--color-blanco);
+}
+p.parra{
+    font-family: var(--font-parra);
+    font-size: 1.3rem;
+}
+h2.titulo2{
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+}
+h2.ueatitulo{
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    color: var(--color-rojo);
+}
+h1.protitulo{
+    font-family: var(--font-titulo);
     font-size: 9rem;
     color: var(--color-rojo);
 }
-p.parraosc{
-    font-family: var(--font-p);
-    font-size: 1.3rem;
+h3.subtosc{
+    font-family: var(--font-subt);
+    font: size 1.3rem;
     color: var(--color-blanco);
 }
-p.parra{
-    font-family: var(--font-p);
-    font-size: 1.3rem;
+h3.subt{
+    font-family: var(--font-subt);
+    font: size 1.3rem;
 }
 /*
 body{
