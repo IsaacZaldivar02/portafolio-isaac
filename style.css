@@ -10,16 +10,37 @@
     --color-amarillo: #FFD800;
     --color-rojocl: #E23D2E;
     --color-rojo: #D62420;
+    --color-blanco: #FFFFFF;
+
+    --font-titulo1: "Staatliches", sans-serif;
+    --font-subt: "IMB Plex Mono", monospace;
+    --font-p: "Fira Sans", sans-serif;
+
 } 
 
-
+h1.titulo1{
+    font-family: var(--font-titulo1);
+    font-size: 9rem;
+    color: var(--color-rojo);
+}
+p.parraosc{
+    font-family: var(--font-p);
+    font-size: 1.3rem;
+    color: var(--color-blanco);
+}
+p.parra{
+    font-family: var(--font-p);
+    font-size: 1.3rem;
+}
+/*
 body{
     font-family: "Fira Sans", sans-serif !important;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 h1.titulo{
     font-family: "Staatliches", sans-serif;
     font-size: 9rem !important;
+    color: #FFD800;
 }
 h2.titulo2{
     font-family: "Staatliches", sans-serif;
@@ -29,7 +50,13 @@ h3.subt{
     font-family: "IBM Plex Mono", monospace;
     font-size: 20px !important;
 }
+p.oscuro{
+    font-family: "Fira Sans", sans-serif !important;
+    font-size: 1.3rem;
+    color: #FFFFFF;
 
-    .maqueta{max-width: 300px;}
+}
+*/ 
+   .maqueta{max-width: 300px;}
     
 
