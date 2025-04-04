@@ -23,10 +23,10 @@ h1.titulo1{
     font-size: 9rem;
     color: var(--color-amarillo);
 }
-p.xxx{
+p.parraosc{
     font-family: var(--font-parra);
     font-size: 1.3rem;
-    color:var var(--color-blanco);
+    color:var(--color-blanco);
 }
 p.parra{
     font-family: var(--font-parra);
@@ -41,6 +41,11 @@ h2.ueatitulo{
     font-size: 3rem;
     color: var(--color-rojo);
 }
+h2.amatitulo{
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    color: var(--color-amarillo);
+}
 h1.protitulo{
     font-family: var(--font-titulo);
     font-size: 9rem;
@@ -51,10 +56,17 @@ h3.subtosc{
     font: size 1.3rem;
     color: var(--color-blanco);
 }
-h3.subt{
+p.subt{
     font-family: var(--font-subt);
-    font: size 1.3rem;
+    font-size: 1.3rem;
+    color: var(--color-amarillo);
 }
+a.subti{
+    font-family: var(--font-subt);
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
 /*
 body{
     font-family: "Fira Sans", sans-serif !important;
