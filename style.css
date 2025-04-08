@@ -13,25 +13,27 @@
     --color-blanco: #FFFFFF;
 
     --font-titulo: "Staatliches", sans-serif;
-    --font-subt: "IMB Plex Mono", monospace;
+    --font-subtitulo: "IMB Plex Mono", monospace;
     --font-parra: "Fira Sans", sans-serif;
+    --font-subtrojo: "IBM Plex Mono", monospace;
 
 } 
+
+/* h1 */
 
 h1.titulo1{
     font-family: var(--font-titulo);
     font-size: 9rem;
     color: var(--color-amarillo);
 }
-p.parraosc{
-    font-family: var(--font-parra);
-    font-size: 1.3rem;
-    color:var(--color-blanco);
+h1.protitulo{
+    font-family: var(--font-titulo);
+    font-size: 9rem;
+    color: var(--color-rojo);
 }
-p.parra{
-    font-family: var(--font-parra);
-    font-size: 1.3rem;
-}
+
+/*h2 */
+
 h2.titulo2{
     font-family: var(--font-titulo);
     font-size: 3rem;
@@ -46,26 +48,59 @@ h2.amatitulo{
     font-size: 3rem;
     color: var(--color-amarillo);
 }
-h1.protitulo{
-    font-family: var(--font-titulo);
-    font-size: 9rem;
-    color: var(--color-rojo);
-}
+
+/*h3*/
+
 h3.subtosc{
-    font-family: var(--font-subt);
+    font-family: var(--font-subtitulo);
     font: size 1.3rem;
     color: var(--color-blanco);
 }
+h3.subtrojo{
+    font-family: var(--font-subtitulo);
+    font: size 1.3rem;
+    color: var(--color-rojo);
+}
+
+/*p*/
+
+p.parraosc{
+    font-family: var(--font-parra);
+    font-size: 1.3rem;
+    color:var(--color-blanco);
+}
+p.parra{
+    font-family: var(--font-parra);
+    font-size: 1.3rem;
+}
 p.subt{
-    font-family: var(--font-subt);
+    font-family: var(--font-subtitulo);
     font-size: 1.3rem;
     color: var(--color-amarillo);
 }
 a.subti{
-    font-family: var(--font-subt);
+    font-family: var(--font-subtitulo);
     font-size: 1rem;
     color: #FFFFFF;
 }
+/* lampara */
+
+.imglamp{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.imglampdema{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /*
 body{
