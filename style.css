@@ -85,16 +85,18 @@ a.subti{
 }
 /* lampara */
 
-.imglamp{
+.imglamprow{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
 }
-.imglampdema{
+.imglampcolum{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
+
+/* frutos de vida */
 .centro{
     display: flex;
     justify-content: center;
