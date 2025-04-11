@@ -102,7 +102,11 @@ a.subti{
     justify-content: center;
 }
 
-
+/* justificacion*/
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
 
 /*
 body{
