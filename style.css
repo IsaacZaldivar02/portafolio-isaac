@@ -26,6 +26,8 @@ h1.titulo1{
     font-size: 9rem;
     color: var(--color-amarillo);
 }
+
+
 h1.protitulo{
     font-family: var(--font-titulo);
     font-size: 9rem;
@@ -104,10 +106,6 @@ a.subti{
 }
 
 /* justificacion*/
-.container{
-    display: flex;
-    justify-content: flex-end;
-}
 
 /*
 body{
