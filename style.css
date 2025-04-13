@@ -27,11 +27,18 @@ h1.titulo1{
     color: var(--color-amarillo);
 }
 
-
 h1.protitulo{
     font-family: var(--font-titulo);
     font-size: 9rem;
     color: var(--color-rojo);
+}
+
+@media(max-width: 600px) {  
+    h1.protitulo{
+        font-family: var(--font-titulo);
+        font-size: 6rem;
+        color: var(--color-rojo);
+    }
 }
 
 /*h2 */
@@ -55,15 +62,28 @@ h2.amatitulo{
 
 h3.subtosc{
     font-family: var(--font-subtitulo);
-    font: size 1.3rem;
+    font-variant-numeric:  1.3rem;
     color: var(--color-blanco);
 }
 h3.subtrojo{
     font-family: var(--font-subtitulo);
-    font: size 1.3rem;
+    font-size: 1.7rem;
     color: var(--color-rojo);
 }
-
+@media(max-width: 1200px) {  
+    h3.subtrojo{
+        font-family: var(--font-subtitulo);
+        font-size: 1.5rem;
+        color: var(--color-rojo);
+    }
+}
+@media(max-width: 600px) {  
+    h3.subtrojo{
+        font-family: var(--font-subtitulo);
+        font-size: 1.2rem;
+        color: var(--color-rojo);
+    }
+}
 /*p*/
 
 p.parraosc{
