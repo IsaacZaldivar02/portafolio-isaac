@@ -158,10 +158,19 @@ a.subti{
     display: flex;
     justify-content: center;
 }
-.cajacolor{
-    background-color: #D9D9D9;
+.cajacolor {
+    background-color: #D9D9D9 !important;
+  }
+.portada {
+    width: 100vw;
+    height: 100vh;
 }
-
+  
+.img-portada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* justificacion*/
 
 /*
