@@ -11,6 +11,7 @@
     --color-rojocl: #E23D2E;
     --color-rojo: #D62420;
     --color-blanco: #FFFFFF;
+    --color-blanco2: #D9D9D9;
 
     --font-titulo: "Staatliches", sans-serif;
     --font-subtitulo: "IMB Plex Mono", monospace;
@@ -63,6 +64,11 @@ h2.titulo2{
     font-family: var(--font-titulo);
     font-size: 3rem;
 }
+h2.titulo3{
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    color: var(--color-blanco);
+}
 h2.ueatitulo{
     font-family: var(--font-titulo);
     font-size: 3rem;
@@ -73,7 +79,11 @@ h2.amatitulo{
     font-size: 3rem;
     color: var(--color-amarillo);
 }
-
+h2.amatitulo2{
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    color: var(--color-blanco);
+}
 /*h3*/
 
 h3.subtosc{
@@ -147,6 +157,9 @@ a.subti{
 .centro{
     display: flex;
     justify-content: center;
+}
+.cajacolor{
+    background-color: #D9D9D9;
 }
 
 /* justificacion*/
