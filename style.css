@@ -29,10 +29,26 @@ h1.titulo1{
 
 h1.protitulo{
     font-family: var(--font-titulo);
-    font-size: 9rem;
+    font-size: 12rem;
     color: var(--color-rojo);
 }
 
+
+@media(max-width: 1200px) {  
+    h1.protitulo{
+        font-family: var(--font-titulo);
+        font-size: 10rem;
+        color: var(--color-rojo);
+    }
+}
+
+@media(max-width: 768px) {  
+    h1.protitulo{
+        font-family: var(--font-titulo);
+        font-size: 8rem;
+        color: var(--color-rojo);
+    }
+}
 @media(max-width: 600px) {  
     h1.protitulo{
         font-family: var(--font-titulo);
@@ -75,6 +91,14 @@ h3.subtrojo{
         font-family: var(--font-subtitulo);
         font-size: 1.5rem;
         color: var(--color-rojo);
+    }
+}
+@media(max-width: 768px) {  
+    h3.subtrojo{
+        font-family: var(--font-subtitulo);
+        font-size: 1.3rem;
+        color: var(--color-rojo);
+        justify-content: right;
     }
 }
 @media(max-width: 600px) {  
