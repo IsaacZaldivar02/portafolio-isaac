@@ -188,6 +188,12 @@ a.subti{
         margin-right: 3rem;
     }
 }    
+.carousel-control-prev-icon{
+    background-color: #f3f1f1;
+}
+.carousel-control-next-icon{
+    background-color: #f3f1f1;
+}
 /* justificacion*/
 
 /*
