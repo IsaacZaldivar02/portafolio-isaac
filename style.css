@@ -23,6 +23,12 @@
 
 /* h1 */
 
+h1.titulohome{
+    font-family: var(--font-titulo);
+    font-size: 10rem;
+    color: var(--color-amarillo);
+}
+
 h1.titulo1{
     font-family: var(--font-titulo);
     font-size: 9rem;
@@ -33,6 +39,22 @@ h1.protitulo{
     font-family: var(--font-titulo);
     font-size: 12rem;
     color: var(--color-rojo);
+}
+
+@media (min-width: 700px) {
+    .contenido-gato {
+      flex-direction: row;
+      justify-content: end;
+    }
+}
+
+@media(max-width: 700px) {  
+    h1.titulohome{
+        font-family: var(--font-titulo);
+        font-size: 6rem;
+        justify-content: center;
+        color: var(--color-amarillo);
+    }
 }
 
 @media(max-width: 1200px) {  
@@ -172,6 +194,11 @@ a.subti{
 .cajacolor3 {
     background-color: #D1D9DB;
 }
+
+.cajadecolor {
+    background-color: #292929;
+}
+
 .portada {
     width: 100vw;
     height: 100vh;
